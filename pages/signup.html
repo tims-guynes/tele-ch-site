@@ -23,8 +23,29 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     
-    <div>
-        <section>Test</section>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+        </div>
+        <div class="col">
+                      <!-- modify this form HTML and place wherever you want your form -->
+            <form
+                action="https://formspree.io/f/xnqerrva"
+                method="POST"
+                >
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+            </form>
+        </div>
+      </div>
     </div>
 
 </body>
