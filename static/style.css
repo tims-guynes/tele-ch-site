@@ -10,3 +10,7 @@ body {
 .col {
     background-color: aliceblue;
 }
+
+.nav-item {
+    padding: 10%;
+}
