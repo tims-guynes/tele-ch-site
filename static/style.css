@@ -16,3 +16,8 @@ body {
 .nav-item {
     padding: 10%;
 }
+
+.link-border {
+    border: 5px;
+    border-color: black;
+}
