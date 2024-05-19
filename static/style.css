@@ -9,7 +9,13 @@ body {
     background-image: url("background/tele-ch-site-background.png");
 }
 
+.container {
+    display: table;
+    width: 100%;
+}
+
 .col {
+    display: tabel-cell;
     background-color: aliceblue;
 }
 
