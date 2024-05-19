@@ -45,16 +45,17 @@
                   Phone number:
                   <input type="phone" name="phone number">
                 </label>
-                <label>
-                  Have you ever played TeleChallenge before?
-                  <div class="input-group">
-                    <div class="input-group-text">
-                      <input class="form-check-input" type="radio" value="Yes" aria-label="Radio button for following text input">
-                      <input class="form-check-input" type="radio" value="No" aria-label="Radio button for following text input">
-                    </div>
-                    <input type="text" class="form-control" aria-label="Text input with radio button">
-                  </div>
-                </label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Default radio
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Default checked radio
+                  </label>
                 <label>
                     Your message:
                     <textarea name="message"></textarea>
