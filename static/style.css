@@ -18,6 +18,10 @@ body {
 }
 
 .link-border {
-    border: 5px;
+    border: 5px solid;
     border-color: black;
+}
+
+img {
+    
 }
