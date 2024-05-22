@@ -17,7 +17,7 @@ body {
 .col {
     display: table-cell;
     background-color: aliceblue;
-    min-height: 400px;
+    min-height: 700px;
 }
 
 .nav-item {
